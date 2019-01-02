@@ -3,8 +3,6 @@ import sys
 import urllib2
 import os
 search_keyword = [sys.argv[1]]
-
-    								# search_keyword.append(raw_input("Enter the search parameter: ")) 
 keywords = [' ']
 download_path = 'dataset/'+ search_keyword[0]
 c = 100
